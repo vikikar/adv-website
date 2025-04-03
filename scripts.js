@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         emailjs.send("service_y9qq4o8", "template_qjykylm", formData)
             .then(function(response) {
-                alert("✅ Email sent successfully!");
+                alert("✅ Email sent successfully,Check your Mail Inbox for Reply");
                 document.getElementById("contactForm").reset();
                 submitButton.innerText = "Send Message";
                 submitButton.disabled = false;
